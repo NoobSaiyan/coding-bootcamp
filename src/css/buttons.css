@@ -1,0 +1,12 @@
+.button {
+  display: grid;
+  height: 50px;
+  width: 100px;
+  margin-left: 20%;
+  align-self: end;
+  align-items: center;
+  justify-items: center;
+  border-radius: 25px;
+  background-color: white;
+  grid-template-columns: 1fr 1fr;
+}

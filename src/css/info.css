@@ -1,0 +1,31 @@
+.qoute {
+  justify-self: center;
+  grid-row: 2;
+}
+.main {
+  color: var(--Dark-Blue);
+  display: grid;
+  grid-template-rows: 20% 10% auto 10% 20%;
+  padding-left: 10%;
+}
+.message {
+  margin-top: 13%;
+  width: 42%;
+  font-weight: 300;
+  position: absolute;
+  grid-row: 3;
+  font-size: 32px;
+  line-height: 45px;
+}
+.foot {
+  align-items: center;
+  padding-top: 5%;
+  grid-row: 4;
+}
+.name {
+  font-weight: 700;
+}
+.job {
+  color: var(--Grayish-Blue);
+  font-weight: 500;
+}

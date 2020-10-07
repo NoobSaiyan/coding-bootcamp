@@ -7,6 +7,9 @@
   --Grayish-Blue: hsl(240, 18%, 77%);
 }
 
+body {
+  font-family: 'Inter', sans-serif;
+}
 .App {
   height: 100vh;
   width: 100vw;
@@ -14,7 +17,7 @@
   background-repeat: no-repeat;
   background-position: bottom left;
   display: grid;
-  grid-template-columns: 10% auto 5%;
+  grid-template-columns: 10% auto 10%;
   grid-template-rows: 5% auto 10%;
 }
 .container {
